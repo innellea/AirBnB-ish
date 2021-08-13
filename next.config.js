@@ -1,7 +1,6 @@
-const withOptimizedImages = require('next-optimized-images');
-
 module.exports = {
-    images: {
-        domains: ['links.papareact.com']
-    }
+  reactStrictMode: true,
+  images: {
+    domains: ['links.papareact.com'],
+  },
 };
