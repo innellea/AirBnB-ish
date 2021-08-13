@@ -1,10 +1,12 @@
 import Head from 'next/head';
-import SmallCard from '../components/SmallCard';
+
 import Banner from '../components/Banner';
-import Header from '../components/Header';
-import MediumCard from '../components/MediumCard';
-import LargeCard from '../components/LargeCard';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
+import LargeCard from '../components/LargeCard';
+import MediumCard from '../components/MediumCard';
+import SmallCard from '../components/SmallCard';
+
 export default function Home({ exploreData, cardsData }) {
     return (
         <div>
@@ -12,8 +14,6 @@ export default function Home({ exploreData, cardsData }) {
                 <title>Airbnb: Vacation Rentals, Cabins, Beach Houses</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-
-            <Header />
 
             <Banner />
             <main className='px-8 mx-auto max-w-7xl sm:px-16'>
@@ -45,7 +45,6 @@ export default function Home({ exploreData, cardsData }) {
                 </section>
                 <LargeCard />
             </main>
-            <Footer />
         </div>
     );
 }
