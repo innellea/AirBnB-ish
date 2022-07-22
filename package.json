@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "@react-hook/media-query": "1.1.1",
-        "date-fns": "2.28.0",
+        "date-fns": "2.29.1",
         "geolib": "3.3.3",
         "next": "11.1.4",
         "nprogress": "0.2.0",
